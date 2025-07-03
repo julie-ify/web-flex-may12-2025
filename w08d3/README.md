@@ -80,7 +80,7 @@ The browser is more than just a place to view websites, it’s a powerful enviro
 
 The browser transforms this into a DOM tree like so:
 
-![](./dom-example.png)
+![](https://github.com/julie-ify/web-flex-may12-2025/blob/main/dom-example.png?raw=true)
 
 Green outline === HTML element; Red outline === text node
 

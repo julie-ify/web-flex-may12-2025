@@ -223,6 +223,52 @@ $(() => {
 });
 ```
 
+### Step-by-Step: Open HTML in Browser from VS Code
+
+---
+
+### Option 1: The Easy Way – Use "Live Server" Extension
+
+#### 1. Install Live Server Extension
+
+- Open **VS Code**
+- Go to the **Extensions** tab (left sidebar or press `Ctrl+Shift+X`)
+- Search for **"Live Server"**
+- Click **Install** (by Ritwick Dey)
+
+#### 2. Open Your HTML File
+
+- Open the folder containing the HTML file in VS Code
+- Click on the HTML file (e.g., `index.html`) to open it
+
+#### 3. Start Live Server
+
+- Right-click anywhere inside the HTML file
+- Select **"Open with Live Server"**
+
+It will automatically launch your default browser with a live version of your HTML file, like: `http://127.0.0.1:5500/index.html`
+
+- Any changes you make in VS Code will **auto-refresh in the browser**
+
+---
+
+### Option 2: Open the HTML File Manually (Without Extension)
+
+#### 1. Open the Folder in VS Code
+
+- Make sure your HTML file is saved in a folder (e.g., `w08d3/index.html`)
+
+#### 2. Locate the HTML File in Your File Explorer
+
+- Right-click on the file tab (in VS Code)
+- Choose **"Reveal in File Explorer"** (Windows) or **"Reveal in Finder"** (Mac)
+
+#### 3. Double-Click the HTML File
+
+- It will open in your default browser directly via the `file://` protocol
+
+---
+
 ### Useful Links
 
 - [MDN: The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)

@@ -61,6 +61,7 @@ The browser is more than just a place to view websites, it’s a powerful enviro
 ```html
 <html>
 	<head>
+		<link rel="stylesheet" href="styles.css" />
 		<title>My Page</title>
 	</head>
 	<body>
